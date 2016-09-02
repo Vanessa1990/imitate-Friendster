@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A4E22601D766C13001C1633 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E225F1D766C13001C1633 /* main.m */; };
+		6A4E22631D766C13001C1633 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E22621D766C13001C1633 /* AppDelegate.m */; };
+		6A4E22661D766C13001C1633 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E22651D766C13001C1633 /* ViewController.m */; };
+		6A4E22691D766C13001C1633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4E22671D766C13001C1633 /* Main.storyboard */; };
+		6A4E226B1D766C13001C1633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4E226A1D766C13001C1633 /* Assets.xcassets */; };
+		6A4E226E1D766C13001C1633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4E226C1D766C13001C1633 /* LaunchScreen.storyboard */; };
+		6A4E22791D766C13001C1633 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E22781D766C13001C1633 /* _____Tests.m */; };
+		6A4E22841D766C13001C1633 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E22831D766C13001C1633 /* _____UITests.m */; };
+		6A4E229E1D767DB0001C1633 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A4E229D1D767DB0001C1633 /* Property List.plist */; };
+		6A4E22A11D768429001C1633 /* CommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E22A01D768429001C1633 /* CommentModel.m */; };
+		6A4E22A51D76A72F001C1633 /* CommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E22A31D76A72F001C1633 /* CommentTableViewCell.m */; };
+		6A4E22A61D76A72F001C1633 /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A4E22A41D76A72F001C1633 /* CommentTableViewCell.xib */; };
+		6A4E22A81D76AE51001C1633 /* male.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A4E22A71D76AE51001C1633 /* male.png */; };
+		6A4E236F1D78018C001C1633 /* YYTextContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E233D1D78018C001C1633 /* YYTextContainerView.m */; };
+		6A4E23701D78018C001C1633 /* YYTextDebugOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E233F1D78018C001C1633 /* YYTextDebugOption.m */; };
+		6A4E23711D78018C001C1633 /* YYTextEffectWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E23411D78018C001C1633 /* YYTextEffectWindow.m */; };
+		6A4E23721D78018C001C1633 /* YYTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E23431D78018C001C1633 /* YYTextInput.m */; };
+		6A4E23731D78018C001C1633 /* YYTextKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E23451D78018C001C1633 /* YYTextKeyboardManager.m */; };
+		6A4E23741D78018C001C1633 /* YYTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E23471D78018C001C1633 /* YYTextLayout.m */; };
+		6A4E23751D78018C001C1633 /* YYTextLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E23491D78018C001C1633 /* YYTextLine.m */; };
+		6A4E23761D78018C001C1633 /* YYTextMagnifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E234B1D78018C001C1633 /* YYTextMagnifier.m */; };
+		6A4E23771D78018C001C1633 /* YYTextSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E234D1D78018C001C1633 /* YYTextSelectionView.m */; };
+		6A4E23781D78018C001C1633 /* YYTextArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E23501D78018C001C1633 /* YYTextArchiver.m */; };
+		6A4E23791D78018C001C1633 /* YYTextAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E23521D78018C001C1633 /* YYTextAttribute.m */; };
+		6A4E237A1D78018C001C1633 /* YYTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E23541D78018C001C1633 /* YYTextParser.m */; };
+		6A4E237B1D78018C001C1633 /* YYTextRubyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E23561D78018C001C1633 /* YYTextRubyAnnotation.m */; };
+		6A4E237C1D78018C001C1633 /* YYTextRunDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E23581D78018C001C1633 /* YYTextRunDelegate.m */; };
+		6A4E237D1D78018C001C1633 /* NSAttributedString+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E235B1D78018C001C1633 /* NSAttributedString+YYText.m */; };
+		6A4E237E1D78018C001C1633 /* NSParagraphStyle+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E235D1D78018C001C1633 /* NSParagraphStyle+YYText.m */; };
+		6A4E237F1D78018C001C1633 /* UIPasteboard+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E235F1D78018C001C1633 /* UIPasteboard+YYText.m */; };
+		6A4E23801D78018C001C1633 /* UIView+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E23611D78018C001C1633 /* UIView+YYText.m */; };
+		6A4E23811D78018C001C1633 /* YYTextAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E23631D78018C001C1633 /* YYTextAsyncLayer.m */; };
+		6A4E23821D78018C001C1633 /* YYTextTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E23651D78018C001C1633 /* YYTextTransaction.m */; };
+		6A4E23831D78018C001C1633 /* YYTextUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E23671D78018C001C1633 /* YYTextUtilities.m */; };
+		6A4E23841D78018C001C1633 /* YYTextWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E23691D78018C001C1633 /* YYTextWeakProxy.m */; };
+		6A4E23851D78018C001C1633 /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E236B1D78018C001C1633 /* YYLabel.m */; };
+		6A4E23861D78018C001C1633 /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E236E1D78018C001C1633 /* YYTextView.m */; };
+		6A4E238A1D7802DF001C1633 /* CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E23881D7802DF001C1633 /* CommentCell.m */; };
+		6A4E238B1D7802DF001C1633 /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A4E23891D7802DF001C1633 /* CommentCell.xib */; };
+		6A4E23961D79292E001C1633 /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E23951D79292E001C1633 /* CommentViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A4E22751D766C13001C1633 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A4E22531D766C13001C1633 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A4E225A1D766C13001C1633;
+			remoteInfo = "仿微信评论";
+		};
+		6A4E22801D766C13001C1633 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A4E22531D766C13001C1633 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A4E225A1D766C13001C1633;
+			remoteInfo = "仿微信评论";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A4E225B1D766C13001C1633 /* 仿微信评论.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿微信评论.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4E225F1D766C13001C1633 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A4E22611D766C13001C1633 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A4E22621D766C13001C1633 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A4E22641D766C13001C1633 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A4E22651D766C13001C1633 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A4E22681D766C13001C1633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A4E226A1D766C13001C1633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A4E226D1D766C13001C1633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A4E226F1D766C13001C1633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A4E22741D766C13001C1633 /* 仿微信评论Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿微信评论Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4E22781D766C13001C1633 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		6A4E227A1D766C13001C1633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A4E227F1D766C13001C1633 /* 仿微信评论UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿微信评论UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4E22831D766C13001C1633 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		6A4E22851D766C13001C1633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A4E229D1D767DB0001C1633 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		6A4E229F1D768429001C1633 /* CommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentModel.h; sourceTree = "<group>"; };
+		6A4E22A01D768429001C1633 /* CommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentModel.m; sourceTree = "<group>"; };
+		6A4E22A21D76A72F001C1633 /* CommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentTableViewCell.h; sourceTree = "<group>"; };
+		6A4E22A31D76A72F001C1633 /* CommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentTableViewCell.m; sourceTree = "<group>"; };
+		6A4E22A41D76A72F001C1633 /* CommentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentTableViewCell.xib; sourceTree = "<group>"; };
+		6A4E22A71D76AE51001C1633 /* male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = male.png; sourceTree = "<group>"; };
+		6A4E233C1D78018C001C1633 /* YYTextContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextContainerView.h; sourceTree = "<group>"; };
+		6A4E233D1D78018C001C1633 /* YYTextContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextContainerView.m; sourceTree = "<group>"; };
+		6A4E233E1D78018C001C1633 /* YYTextDebugOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextDebugOption.h; sourceTree = "<group>"; };
+		6A4E233F1D78018C001C1633 /* YYTextDebugOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextDebugOption.m; sourceTree = "<group>"; };
+		6A4E23401D78018C001C1633 /* YYTextEffectWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextEffectWindow.h; sourceTree = "<group>"; };
+		6A4E23411D78018C001C1633 /* YYTextEffectWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextEffectWindow.m; sourceTree = "<group>"; };
+		6A4E23421D78018C001C1633 /* YYTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextInput.h; sourceTree = "<group>"; };
+		6A4E23431D78018C001C1633 /* YYTextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextInput.m; sourceTree = "<group>"; };
+		6A4E23441D78018C001C1633 /* YYTextKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextKeyboardManager.h; sourceTree = "<group>"; };
+		6A4E23451D78018C001C1633 /* YYTextKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextKeyboardManager.m; sourceTree = "<group>"; };
+		6A4E23461D78018C001C1633 /* YYTextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextLayout.h; sourceTree = "<group>"; };
+		6A4E23471D78018C001C1633 /* YYTextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextLayout.m; sourceTree = "<group>"; };
+		6A4E23481D78018C001C1633 /* YYTextLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextLine.h; sourceTree = "<group>"; };
+		6A4E23491D78018C001C1633 /* YYTextLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextLine.m; sourceTree = "<group>"; };
+		6A4E234A1D78018C001C1633 /* YYTextMagnifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextMagnifier.h; sourceTree = "<group>"; };
+		6A4E234B1D78018C001C1633 /* YYTextMagnifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextMagnifier.m; sourceTree = "<group>"; };
+		6A4E234C1D78018C001C1633 /* YYTextSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextSelectionView.h; sourceTree = "<group>"; };
+		6A4E234D1D78018C001C1633 /* YYTextSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextSelectionView.m; sourceTree = "<group>"; };
+		6A4E234F1D78018C001C1633 /* YYTextArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextArchiver.h; sourceTree = "<group>"; };
+		6A4E23501D78018C001C1633 /* YYTextArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextArchiver.m; sourceTree = "<group>"; };
+		6A4E23511D78018C001C1633 /* YYTextAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextAttribute.h; sourceTree = "<group>"; };
+		6A4E23521D78018C001C1633 /* YYTextAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextAttribute.m; sourceTree = "<group>"; };
+		6A4E23531D78018C001C1633 /* YYTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextParser.h; sourceTree = "<group>"; };
+		6A4E23541D78018C001C1633 /* YYTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextParser.m; sourceTree = "<group>"; };
+		6A4E23551D78018C001C1633 /* YYTextRubyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextRubyAnnotation.h; sourceTree = "<group>"; };
+		6A4E23561D78018C001C1633 /* YYTextRubyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextRubyAnnotation.m; sourceTree = "<group>"; };
+		6A4E23571D78018C001C1633 /* YYTextRunDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextRunDelegate.h; sourceTree = "<group>"; };
+		6A4E23581D78018C001C1633 /* YYTextRunDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextRunDelegate.m; sourceTree = "<group>"; };
+		6A4E235A1D78018C001C1633 /* NSAttributedString+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+YYText.h"; sourceTree = "<group>"; };
+		6A4E235B1D78018C001C1633 /* NSAttributedString+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+YYText.m"; sourceTree = "<group>"; };
+		6A4E235C1D78018C001C1633 /* NSParagraphStyle+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSParagraphStyle+YYText.h"; sourceTree = "<group>"; };
+		6A4E235D1D78018C001C1633 /* NSParagraphStyle+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSParagraphStyle+YYText.m"; sourceTree = "<group>"; };
+		6A4E235E1D78018C001C1633 /* UIPasteboard+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPasteboard+YYText.h"; sourceTree = "<group>"; };
+		6A4E235F1D78018C001C1633 /* UIPasteboard+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPasteboard+YYText.m"; sourceTree = "<group>"; };
+		6A4E23601D78018C001C1633 /* UIView+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYText.h"; sourceTree = "<group>"; };
+		6A4E23611D78018C001C1633 /* UIView+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYText.m"; sourceTree = "<group>"; };
+		6A4E23621D78018C001C1633 /* YYTextAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextAsyncLayer.h; sourceTree = "<group>"; };
+		6A4E23631D78018C001C1633 /* YYTextAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextAsyncLayer.m; sourceTree = "<group>"; };
+		6A4E23641D78018C001C1633 /* YYTextTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextTransaction.h; sourceTree = "<group>"; };
+		6A4E23651D78018C001C1633 /* YYTextTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextTransaction.m; sourceTree = "<group>"; };
+		6A4E23661D78018C001C1633 /* YYTextUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextUtilities.h; sourceTree = "<group>"; };
+		6A4E23671D78018C001C1633 /* YYTextUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextUtilities.m; sourceTree = "<group>"; };
+		6A4E23681D78018C001C1633 /* YYTextWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextWeakProxy.h; sourceTree = "<group>"; };
+		6A4E23691D78018C001C1633 /* YYTextWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextWeakProxy.m; sourceTree = "<group>"; };
+		6A4E236A1D78018C001C1633 /* YYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLabel.h; sourceTree = "<group>"; };
+		6A4E236B1D78018C001C1633 /* YYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLabel.m; sourceTree = "<group>"; };
+		6A4E236C1D78018C001C1633 /* YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYText.h; sourceTree = "<group>"; };
+		6A4E236D1D78018C001C1633 /* YYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextView.h; sourceTree = "<group>"; };
+		6A4E236E1D78018C001C1633 /* YYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextView.m; sourceTree = "<group>"; };
+		6A4E23871D7802DF001C1633 /* CommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCell.h; sourceTree = "<group>"; };
+		6A4E23881D7802DF001C1633 /* CommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCell.m; sourceTree = "<group>"; };
+		6A4E23891D7802DF001C1633 /* CommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentCell.xib; sourceTree = "<group>"; };
+		6A4E23941D79292E001C1633 /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		6A4E23951D79292E001C1633 /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A4E22581D766C13001C1633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4E22711D766C13001C1633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4E227C1D766C13001C1633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A4E22521D766C13001C1633 = {
+			isa = PBXGroup;
+			children = (
+				6A4E225D1D766C13001C1633 /* 仿微信评论 */,
+				6A4E22771D766C13001C1633 /* 仿微信评论Tests */,
+				6A4E22821D766C13001C1633 /* 仿微信评论UITests */,
+				6A4E225C1D766C13001C1633 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A4E225C1D766C13001C1633 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A4E225B1D766C13001C1633 /* 仿微信评论.app */,
+				6A4E22741D766C13001C1633 /* 仿微信评论Tests.xctest */,
+				6A4E227F1D766C13001C1633 /* 仿微信评论UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A4E225D1D766C13001C1633 /* 仿微信评论 */ = {
+			isa = PBXGroup;
+			children = (
+				6A4E233A1D78018C001C1633 /* YYText */,
+				6A4E23931D792902001C1633 /* Demo */,
+				6A4E22611D766C13001C1633 /* AppDelegate.h */,
+				6A4E22621D766C13001C1633 /* AppDelegate.m */,
+				6A4E22641D766C13001C1633 /* ViewController.h */,
+				6A4E22651D766C13001C1633 /* ViewController.m */,
+				6A4E22671D766C13001C1633 /* Main.storyboard */,
+				6A4E226A1D766C13001C1633 /* Assets.xcassets */,
+				6A4E226C1D766C13001C1633 /* LaunchScreen.storyboard */,
+				6A4E226F1D766C13001C1633 /* Info.plist */,
+				6A4E22A71D76AE51001C1633 /* male.png */,
+				6A4E225E1D766C13001C1633 /* Supporting Files */,
+			);
+			path = "仿微信评论";
+			sourceTree = "<group>";
+		};
+		6A4E225E1D766C13001C1633 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A4E225F1D766C13001C1633 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A4E22771D766C13001C1633 /* 仿微信评论Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6A4E22781D766C13001C1633 /* _____Tests.m */,
+				6A4E227A1D766C13001C1633 /* Info.plist */,
+			);
+			path = "仿微信评论Tests";
+			sourceTree = "<group>";
+		};
+		6A4E22821D766C13001C1633 /* 仿微信评论UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A4E22831D766C13001C1633 /* _____UITests.m */,
+				6A4E22851D766C13001C1633 /* Info.plist */,
+			);
+			path = "仿微信评论UITests";
+			sourceTree = "<group>";
+		};
+		6A4E233A1D78018C001C1633 /* YYText */ = {
+			isa = PBXGroup;
+			children = (
+				6A4E233B1D78018C001C1633 /* Component */,
+				6A4E234E1D78018C001C1633 /* String */,
+				6A4E23591D78018C001C1633 /* Utility */,
+				6A4E236A1D78018C001C1633 /* YYLabel.h */,
+				6A4E236B1D78018C001C1633 /* YYLabel.m */,
+				6A4E236C1D78018C001C1633 /* YYText.h */,
+				6A4E236D1D78018C001C1633 /* YYTextView.h */,
+				6A4E236E1D78018C001C1633 /* YYTextView.m */,
+			);
+			path = YYText;
+			sourceTree = "<group>";
+		};
+		6A4E233B1D78018C001C1633 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				6A4E233C1D78018C001C1633 /* YYTextContainerView.h */,
+				6A4E233D1D78018C001C1633 /* YYTextContainerView.m */,
+				6A4E233E1D78018C001C1633 /* YYTextDebugOption.h */,
+				6A4E233F1D78018C001C1633 /* YYTextDebugOption.m */,
+				6A4E23401D78018C001C1633 /* YYTextEffectWindow.h */,
+				6A4E23411D78018C001C1633 /* YYTextEffectWindow.m */,
+				6A4E23421D78018C001C1633 /* YYTextInput.h */,
+				6A4E23431D78018C001C1633 /* YYTextInput.m */,
+				6A4E23441D78018C001C1633 /* YYTextKeyboardManager.h */,
+				6A4E23451D78018C001C1633 /* YYTextKeyboardManager.m */,
+				6A4E23461D78018C001C1633 /* YYTextLayout.h */,
+				6A4E23471D78018C001C1633 /* YYTextLayout.m */,
+				6A4E23481D78018C001C1633 /* YYTextLine.h */,
+				6A4E23491D78018C001C1633 /* YYTextLine.m */,
+				6A4E234A1D78018C001C1633 /* YYTextMagnifier.h */,
+				6A4E234B1D78018C001C1633 /* YYTextMagnifier.m */,
+				6A4E234C1D78018C001C1633 /* YYTextSelectionView.h */,
+				6A4E234D1D78018C001C1633 /* YYTextSelectionView.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		6A4E234E1D78018C001C1633 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				6A4E234F1D78018C001C1633 /* YYTextArchiver.h */,
+				6A4E23501D78018C001C1633 /* YYTextArchiver.m */,
+				6A4E23511D78018C001C1633 /* YYTextAttribute.h */,
+				6A4E23521D78018C001C1633 /* YYTextAttribute.m */,
+				6A4E23531D78018C001C1633 /* YYTextParser.h */,
+				6A4E23541D78018C001C1633 /* YYTextParser.m */,
+				6A4E23551D78018C001C1633 /* YYTextRubyAnnotation.h */,
+				6A4E23561D78018C001C1633 /* YYTextRubyAnnotation.m */,
+				6A4E23571D78018C001C1633 /* YYTextRunDelegate.h */,
+				6A4E23581D78018C001C1633 /* YYTextRunDelegate.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		6A4E23591D78018C001C1633 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				6A4E235A1D78018C001C1633 /* NSAttributedString+YYText.h */,
+				6A4E235B1D78018C001C1633 /* NSAttributedString+YYText.m */,
+				6A4E235C1D78018C001C1633 /* NSParagraphStyle+YYText.h */,
+				6A4E235D1D78018C001C1633 /* NSParagraphStyle+YYText.m */,
+				6A4E235E1D78018C001C1633 /* UIPasteboard+YYText.h */,
+				6A4E235F1D78018C001C1633 /* UIPasteboard+YYText.m */,
+				6A4E23601D78018C001C1633 /* UIView+YYText.h */,
+				6A4E23611D78018C001C1633 /* UIView+YYText.m */,
+				6A4E23621D78018C001C1633 /* YYTextAsyncLayer.h */,
+				6A4E23631D78018C001C1633 /* YYTextAsyncLayer.m */,
+				6A4E23641D78018C001C1633 /* YYTextTransaction.h */,
+				6A4E23651D78018C001C1633 /* YYTextTransaction.m */,
+				6A4E23661D78018C001C1633 /* YYTextUtilities.h */,
+				6A4E23671D78018C001C1633 /* YYTextUtilities.m */,
+				6A4E23681D78018C001C1633 /* YYTextWeakProxy.h */,
+				6A4E23691D78018C001C1633 /* YYTextWeakProxy.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		6A4E23931D792902001C1633 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6A4E23941D79292E001C1633 /* CommentViewController.h */,
+				6A4E23951D79292E001C1633 /* CommentViewController.m */,
+				6A4E22A21D76A72F001C1633 /* CommentTableViewCell.h */,
+				6A4E22A31D76A72F001C1633 /* CommentTableViewCell.m */,
+				6A4E22A41D76A72F001C1633 /* CommentTableViewCell.xib */,
+				6A4E23871D7802DF001C1633 /* CommentCell.h */,
+				6A4E23881D7802DF001C1633 /* CommentCell.m */,
+				6A4E23891D7802DF001C1633 /* CommentCell.xib */,
+				6A4E229F1D768429001C1633 /* CommentModel.h */,
+				6A4E22A01D768429001C1633 /* CommentModel.m */,
+				6A4E229D1D767DB0001C1633 /* Property List.plist */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A4E225A1D766C13001C1633 /* 仿微信评论 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4E22881D766C13001C1633 /* Build configuration list for PBXNativeTarget "仿微信评论" */;
+			buildPhases = (
+				6A4E22571D766C13001C1633 /* Sources */,
+				6A4E22581D766C13001C1633 /* Frameworks */,
+				6A4E22591D766C13001C1633 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿微信评论";
+			productName = "仿微信评论";
+			productReference = 6A4E225B1D766C13001C1633 /* 仿微信评论.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A4E22731D766C13001C1633 /* 仿微信评论Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4E228B1D766C13001C1633 /* Build configuration list for PBXNativeTarget "仿微信评论Tests" */;
+			buildPhases = (
+				6A4E22701D766C13001C1633 /* Sources */,
+				6A4E22711D766C13001C1633 /* Frameworks */,
+				6A4E22721D766C13001C1633 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A4E22761D766C13001C1633 /* PBXTargetDependency */,
+			);
+			name = "仿微信评论Tests";
+			productName = "仿微信评论Tests";
+			productReference = 6A4E22741D766C13001C1633 /* 仿微信评论Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A4E227E1D766C13001C1633 /* 仿微信评论UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4E228E1D766C13001C1633 /* Build configuration list for PBXNativeTarget "仿微信评论UITests" */;
+			buildPhases = (
+				6A4E227B1D766C13001C1633 /* Sources */,
+				6A4E227C1D766C13001C1633 /* Frameworks */,
+				6A4E227D1D766C13001C1633 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A4E22811D766C13001C1633 /* PBXTargetDependency */,
+			);
+			name = "仿微信评论UITests";
+			productName = "仿微信评论UITests";
+			productReference = 6A4E227F1D766C13001C1633 /* 仿微信评论UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A4E22531D766C13001C1633 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iosDev;
+				TargetAttributes = {
+					6A4E225A1D766C13001C1633 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = WK32UPJH87;
+					};
+					6A4E22731D766C13001C1633 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6A4E225A1D766C13001C1633;
+					};
+					6A4E227E1D766C13001C1633 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6A4E225A1D766C13001C1633;
+					};
+				};
+			};
+			buildConfigurationList = 6A4E22561D766C13001C1633 /* Build configuration list for PBXProject "仿微信评论" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A4E22521D766C13001C1633;
+			productRefGroup = 6A4E225C1D766C13001C1633 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A4E225A1D766C13001C1633 /* 仿微信评论 */,
+				6A4E22731D766C13001C1633 /* 仿微信评论Tests */,
+				6A4E227E1D766C13001C1633 /* 仿微信评论UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A4E22591D766C13001C1633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4E229E1D767DB0001C1633 /* Property List.plist in Resources */,
+				6A4E22A61D76A72F001C1633 /* CommentTableViewCell.xib in Resources */,
+				6A4E226E1D766C13001C1633 /* LaunchScreen.storyboard in Resources */,
+				6A4E22A81D76AE51001C1633 /* male.png in Resources */,
+				6A4E226B1D766C13001C1633 /* Assets.xcassets in Resources */,
+				6A4E22691D766C13001C1633 /* Main.storyboard in Resources */,
+				6A4E238B1D7802DF001C1633 /* CommentCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4E22721D766C13001C1633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4E227D1D766C13001C1633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A4E22571D766C13001C1633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4E22661D766C13001C1633 /* ViewController.m in Sources */,
+				6A4E237B1D78018C001C1633 /* YYTextRubyAnnotation.m in Sources */,
+				6A4E23701D78018C001C1633 /* YYTextDebugOption.m in Sources */,
+				6A4E236F1D78018C001C1633 /* YYTextContainerView.m in Sources */,
+				6A4E23731D78018C001C1633 /* YYTextKeyboardManager.m in Sources */,
+				6A4E237A1D78018C001C1633 /* YYTextParser.m in Sources */,
+				6A4E23781D78018C001C1633 /* YYTextArchiver.m in Sources */,
+				6A4E23841D78018C001C1633 /* YYTextWeakProxy.m in Sources */,
+				6A4E23861D78018C001C1633 /* YYTextView.m in Sources */,
+				6A4E23811D78018C001C1633 /* YYTextAsyncLayer.m in Sources */,
+				6A4E237F1D78018C001C1633 /* UIPasteboard+YYText.m in Sources */,
+				6A4E23711D78018C001C1633 /* YYTextEffectWindow.m in Sources */,
+				6A4E22631D766C13001C1633 /* AppDelegate.m in Sources */,
+				6A4E238A1D7802DF001C1633 /* CommentCell.m in Sources */,
+				6A4E237E1D78018C001C1633 /* NSParagraphStyle+YYText.m in Sources */,
+				6A4E23791D78018C001C1633 /* YYTextAttribute.m in Sources */,
+				6A4E23761D78018C001C1633 /* YYTextMagnifier.m in Sources */,
+				6A4E23821D78018C001C1633 /* YYTextTransaction.m in Sources */,
+				6A4E22601D766C13001C1633 /* main.m in Sources */,
+				6A4E23771D78018C001C1633 /* YYTextSelectionView.m in Sources */,
+				6A4E23851D78018C001C1633 /* YYLabel.m in Sources */,
+				6A4E22A51D76A72F001C1633 /* CommentTableViewCell.m in Sources */,
+				6A4E237C1D78018C001C1633 /* YYTextRunDelegate.m in Sources */,
+				6A4E23801D78018C001C1633 /* UIView+YYText.m in Sources */,
+				6A4E23721D78018C001C1633 /* YYTextInput.m in Sources */,
+				6A4E237D1D78018C001C1633 /* NSAttributedString+YYText.m in Sources */,
+				6A4E23741D78018C001C1633 /* YYTextLayout.m in Sources */,
+				6A4E23751D78018C001C1633 /* YYTextLine.m in Sources */,
+				6A4E22A11D768429001C1633 /* CommentModel.m in Sources */,
+				6A4E23831D78018C001C1633 /* YYTextUtilities.m in Sources */,
+				6A4E23961D79292E001C1633 /* CommentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4E22701D766C13001C1633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4E22791D766C13001C1633 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4E227B1D766C13001C1633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4E22841D766C13001C1633 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A4E22761D766C13001C1633 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A4E225A1D766C13001C1633 /* 仿微信评论 */;
+			targetProxy = 6A4E22751D766C13001C1633 /* PBXContainerItemProxy */;
+		};
+		6A4E22811D766C13001C1633 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A4E225A1D766C13001C1633 /* 仿微信评论 */;
+			targetProxy = 6A4E22801D766C13001C1633 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A4E22671D766C13001C1633 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A4E22681D766C13001C1633 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A4E226C1D766C13001C1633 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A4E226D1D766C13001C1633 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A4E22861D766C13001C1633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A4E22871D766C13001C1633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A4E22891D766C13001C1633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "仿微信评论/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1111.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		6A4E228A1D766C13001C1633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "仿微信评论/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1111.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		6A4E228C1D766C13001C1633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仿微信评论Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yizhu.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿微信评论.app/仿微信评论";
+			};
+			name = Debug;
+		};
+		6A4E228D1D766C13001C1633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仿微信评论Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yizhu.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿微信评论.app/仿微信评论";
+			};
+			name = Release;
+		};
+		6A4E228F1D766C13001C1633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仿微信评论UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yizhu.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿微信评论";
+			};
+			name = Debug;
+		};
+		6A4E22901D766C13001C1633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仿微信评论UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yizhu.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿微信评论";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A4E22561D766C13001C1633 /* Build configuration list for PBXProject "仿微信评论" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4E22861D766C13001C1633 /* Debug */,
+				6A4E22871D766C13001C1633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A4E22881D766C13001C1633 /* Build configuration list for PBXNativeTarget "仿微信评论" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4E22891D766C13001C1633 /* Debug */,
+				6A4E228A1D766C13001C1633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A4E228B1D766C13001C1633 /* Build configuration list for PBXNativeTarget "仿微信评论Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4E228C1D766C13001C1633 /* Debug */,
+				6A4E228D1D766C13001C1633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A4E228E1D766C13001C1633 /* Build configuration list for PBXNativeTarget "仿微信评论UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4E228F1D766C13001C1633 /* Debug */,
+				6A4E22901D766C13001C1633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A4E22531D766C13001C1633 /* Project object */;
+}
